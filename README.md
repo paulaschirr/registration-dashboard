@@ -1,4 +1,4 @@
-# registration-dashboard
+# Registration Dashboard
 An interactive input terminal to register attendance to courses and events. This shiny dashboard was designed to replace the pen and paper attendance registration lists at the technical college FTWV in Wilhelmshaven, Germany. Pen and paper lists for attendance are prone to error.
 
 The shiny app creates a user interface that can be run locally on a registration terminal (computer in the entry hall of the technical college). Every course attendant receives an ID to avoid errors due to variations in names or misspelling. To run the app, install R and Rstudio locally on your machine. Download app.R, ID-key.csv and www folder (containing college logo). Before running the dashboard for the first time, all required packages have to be installed (uncomment and run line 1-3, in the following these lines are not needed, so comment out).
