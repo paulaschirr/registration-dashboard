@@ -17,7 +17,7 @@ if (!file.exists('registration_all.csv')) {
         Name = character())
     write.csv(df1, 'registration_all.csv', row.names = FALSE)
 }
-if (weekdays(Sys.Date())=="Monday") {
+if (weekdays(Sys.Date())=="Tuesday") {
     email <- envelope() %>%
         from("my-email@email.com") %>%
         to("your-email@email.com") %>%
@@ -37,7 +37,7 @@ if (weekdays(Sys.Date())=="Monday") {
 
 ui <- fluidPage(
     tags$img(src='logo_ftwv.png', height="20%", width="20%", align = "right", border="2000px"),
-    titlePanel("registration FTWV"),
+    titlePanel("Registration FTWV"),
     
     sidebarPanel(
         textInput(inputId = "Number",
